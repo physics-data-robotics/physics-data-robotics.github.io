@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(to bottom, #ffffff 0%, #fff5f8 15%, #ffeef5 25%, #e3f2fd 45%, #f3e5f5 70%, #d1c4e9 85%, #9575cd 100%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(to bottom, #ffffff 0%, #fff5f8 15%, #ffeef5 25%, #e3f2fd 45%, #f3e5f5 70%, #d1c4e9 85%, #9575cd 100%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(to bottom, #ffffff 0%, #fff5f8 15%, #ffeef5 25%, #e3f2fd 45%, #f3e5f5 70%, #d1c4e9 85%, #9575cd 100%);
+		background-image: url("images/overlay.png"), linear-gradient(to bottom, #ffffff 0%, #fff5f8 15%, #ffeef5 25%, #e3f2fd 45%, #f3e5f5 70%, #d1c4e9 85%, #9575cd 100%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3074,15 +3074,26 @@ input, select, textarea {
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
+		color: #333333;
 	}
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
+			color: #2d3436;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			color: #636e72;
+		}
+		
+		#header .icon {
+			color: #636e72;
+		}
+		
+		#header a {
+			color: #636e72;
 		}
 
 		#header.alt {
